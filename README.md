@@ -1,16 +1,41 @@
-# React + Vite
+# Creatorverse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web app to manage your favorite content creators. Built with React, Vite, and Supabase.
 
-Currently, two official plugins are available:
+## Video Walkthrough
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Video Walkthrough](record.gif)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Required Features
+- [x] Use a logical component structure in React to create the frontend of the app
+- [x] Display at least five content creators on the homepage of the app
+- [x] Each content creator item includes their name, a link to their channel or page, and a short description
+- [x] API calls use the async/await design pattern via Supabase
+- [x] Clicking on a content creator item takes the user to their details page
+- [x] Each content creator has their own unique URL
+- [x] The user can edit a content creator to change their name, url, or description
+- [x] The user can delete a content creator
+- [x] The user can add a new content creator
+- [x] The new content creator then appears in the displayed list
 
-## Expanding the ESLint configuration
+### Stretch Features
+- [x] Use PicoCSS to style HTML elements
+- [x] Display content creator items in a creative format, like cards instead of a list
+- [x] Show an image of each content creator on their content creator card
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React
+- Vite
+- Supabase
+- PicoCSS
+- React Router
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
