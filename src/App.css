@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #0f0f0f;
+  color: #fff;
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  border: none;
+}
